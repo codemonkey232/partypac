@@ -1,0 +1,47 @@
+stone1.maze		#maze filename
+KoD_Kingdom_of_ice
+true			#Background glows
+false			#Background has rings
+128			#Background dark colour (RGB)
+0
+0
+255			#Background light colour (RGB)
+0
+0
+0			#Background ring colour (RGB)
+0
+0
+12			#Pac 1 x location
+11			#Pac 1 y location...
+5
+11
+15
+11
+8
+11
+5                       #Number of ghosts
+ghostwhite.gif		#Ghost 1 normal image filename
+ghostblue.gif		#Ghost 1 blue image filename
+8			#Ghost 1 x location
+5			#Ghost 1 y location...
+ghostred.gif
+ghostblue.gif
+8
+7
+ghostcyan.gif
+ghostblue.gif
+10
+7
+ghostred.gif
+ghostblue.gif
+12
+7
+ghostwhite.gif
+ghostblue.gif
+12
+5
+1			#Number of goodie spawn points
+10			#Goodie point 1 x location
+7			#Goodie point 1 y location...
+
+
