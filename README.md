@@ -1,4 +1,4 @@
 # partypac
-CS101 - Multiplayer Pacman
-
-Play at http://cs101flashback.appspot.com/partypac.html
+From CompSci101 comes
+### Multiplayer Pacman
+Playable at https://codemonkey232.github.io/partypac/
