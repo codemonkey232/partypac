@@ -1,0 +1,45 @@
+wharf2.maze		#maze filename
+KoD_Force_of_darkness
+true			#Background glows
+false			#Background has rings
+0			#Background dark colour (RGB)
+0
+255
+0			#Background light colour (RGB)
+128
+255
+0			#Background ring colour (RGB)
+0
+0
+14			#Pac 1 x location
+14			#Pac 1 y location...
+4
+4
+16
+3
+3
+12
+4                       #Number of ghosts
+ghostred.gif		#Ghost 1 normal image filename
+ghostblue.gif		#Ghost 1 blue image filename
+8			#Ghost 1 x location
+8			#Ghost 1 y location...
+ghostwhite.gif
+ghostblue.gif
+12
+8
+ghostcyan.gif
+ghostblue.gif
+10
+6
+ghostpurple.gif
+ghostblue.gif
+10
+10
+2			#Number of goodie spawn points
+1			#Goodie point 1 x location
+1			#Goodie point 1 y location...
+12
+10
+
+

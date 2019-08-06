@@ -1,0 +1,53 @@
+stone2.maze		#maze filename
+KoD_Dragons_revenge
+true			#Background glows
+false			#Background has rings
+128			#Background dark colour (RGB)
+0
+0
+255			#Background light colour (RGB)
+0
+0
+0			#Background ring colour (RGB)
+0
+0
+19			#Pac 1 x location
+11			#Pac 1 y location...
+1
+5
+19
+5
+1
+11
+6                       #Number of ghosts
+ghostred.gif	#Ghost 1 normal image filename
+ghostblue.gif	#Ghost 1 blue image filename
+5			#Ghost 1 x location
+6			#Ghost 1 y location...
+ghostpurple.gif
+ghostblue.gif
+5
+10
+ghostjade.gif
+ghostblue.gif
+15
+6
+ghostbrown.gif
+ghostblue.gif
+15
+10
+ghostpink.gif
+ghostblue.gif
+10
+4
+ghostcyan.gif
+ghostblue.gif
+10
+12
+2			#Number of goodie spawn points
+5			#Goodie point 1 x location
+8			#Goodie point 1 y location...
+15
+8
+
+
