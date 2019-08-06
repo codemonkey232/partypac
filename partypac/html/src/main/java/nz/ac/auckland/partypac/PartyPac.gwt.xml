@@ -1,0 +1,11 @@
+<module rename-to='partypac'>
+  <inherits name='playn.Scene'/>
+  <inherits name='PartyPacAssets'/>
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='nz.ac.auckland.partypac.html.PartyPacHtml'/>
+</module>
