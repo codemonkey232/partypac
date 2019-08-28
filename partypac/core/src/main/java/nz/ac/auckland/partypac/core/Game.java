@@ -17,7 +17,7 @@ public class Game {
   public static final int MAX_PACMEN = 4;
   public static boolean MUSIC_ON = true;
 
-  public static final int[] LIVES = new int[] {10, 8, 6, 5};
+  public static final int[] LIVES = new int[] {5, 3, 2, 1};
 
   public static final Point LIFE_POINT = new Point(0, Layout.MAZE_HEIGHT_PX + 25);
   public static final Point TO_WIN_POINT = new Point(624, Layout.MAZE_HEIGHT_PX + 25);
@@ -104,13 +104,17 @@ public class Game {
       level++;
       getReady();
     }
-    if (key == Key.PAUSE && status == NORMAL) {
+    if (isPause(key) && status == NORMAL) {
       status = PAUSED;
       menu.statusUpdated();
-    } else if (key == Key.PAUSE && status == PAUSED) {
+    } else if (isPause(key) && status == PAUSED) {
       status = NORMAL;
       menu.statusUpdated();
     }
+  }
+  
+  private static boolean isPause(Key key) {
+    return key == Key.PAUSE || key == Key.P;
   }
 
   public void tick() {
@@ -187,6 +191,7 @@ public class Game {
           song.stop();
         }
         if (level < Levels.NUM_LEVELS) {
+          lives++;
           Sounds.levelWon.play();
           getReady();
         } else {
