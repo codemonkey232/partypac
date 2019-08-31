@@ -13,7 +13,7 @@ public class PartyPac extends SceneGame {
   static Platform plat;
 
   public PartyPac (Platform plat) {
-    super(plat, 25); // 33ms per frame
+    super(plat, 25); // 25ms per frame
     PartyPac.plat = plat;
 
     Images.loadImages(plat);
