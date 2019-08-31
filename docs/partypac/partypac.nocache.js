@@ -334,7 +334,7 @@ function partypac(){
     }
     var strongName;
     try {
-      strongName = '38EA72D36D6DED83E847B79FB3DD53B8';
+      strongName = '1E92CBD4231839DCBFB346D9B1FF1688';
       var idx = strongName.indexOf(':');
       if (idx != -1) {
         softPermutationId = parseInt(strongName.substring(idx + 1), 10);

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf ../docs/partypac/
+cp -r html/target/partypac-html-1.0/partypac/ ../docs/partypac/
+cp ../partypac.html ../docs/index.html
